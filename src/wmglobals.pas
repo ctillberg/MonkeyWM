@@ -26,7 +26,7 @@ interface
 
 uses
   Classes, SysUtils, IniFiles, x, xlib, xutil, imlib2;
-  
+
 
 type
    Client = record
@@ -60,7 +60,7 @@ type
       destroyed : boolean;
       hints: PXWMHints;
    end;
-   
+
    PropMwmHints = record
       flags : Cardinal;
       functions : Cardinal;
@@ -68,7 +68,7 @@ type
       inputMode : Integer;
       status : Cardinal;
    end;
-   
+
    PixmapStruct = record
       iimage : Imlib_Image;
       ipixmap : TPixmap;
@@ -76,7 +76,7 @@ type
       iwidth : integer;
       iheight : integer;
    end;
-   
+
    LaunchbarItems = record
       lbwindow : TWindow;
       lbpicpath : string;
@@ -89,7 +89,7 @@ type
       lbpicwidth : integer;
       lbpicheight : integer;
    end;
-   
+
    DesktopItems = record
       dtwindow : TWindow;
       dtpicpath : string;
@@ -107,13 +107,13 @@ type
       dtcaptionwidth : integer;
       dtcaptionheight : integer;
    end;
-   
+
    DesktopItemMove = record
       dtismove : boolean;
       dtitemmove : integer;
       dtdidmove : boolean;
    end;
-  
+
 var
    dsply: PDisplay;
    scrn, font_height: integer;
@@ -148,9 +148,9 @@ var
    wmdtItemmove: DesktopItemMove;
 
 
-   
+
 const
-   appversion: string = '0.3.0';
+   appversion: string = '0.3.1';
    appdirname: string = 'monkeywm';
    appname: string = 'MonkeyWM';
    dodebug: boolean = False;
@@ -209,9 +209,8 @@ const
    dtusedoubleclick: boolean = True;
    dtdblclickinterval: integer = 200;
 
-   
+
 
 implementation
 
 end.
-

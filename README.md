@@ -1,4 +1,7 @@
 # MonkeyWM
+
+NOTE: This is something that I did in 2007.
+
 Monkey Window Manager (MonkeyWM)
 
 MonkeyWM is a lightweight WM written in Freepascal.

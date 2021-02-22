@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="/"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="2"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="monkeywm.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="monkeywm"/>
+        <CursorPos X="39" Y="4"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="wmstartup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmstartup"/>
+        <CursorPos X="24" Y="145"/>
+        <TopLine Value="108"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="wmglobals.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmglobals"/>
+        <CursorPos X="4" Y="145"/>
+        <TopLine Value="90"/>
+        <EditorIndex Value="10"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="wmmisc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmmisc"/>
+        <CursorPos X="62" Y="163"/>
+        <TopLine Value="113"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="wmerrhandle.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmerrhandle"/>
+        <CursorPos X="39" Y="4"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="wmclientunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmclientunit"/>
+        <CursorPos X="3" Y="548"/>
+        <TopLine Value="504"/>
+        <EditorIndex Value="8"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="wmnewclient.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmnewclient"/>
+        <CursorPos X="92" Y="24"/>
+        <TopLine Value="28"/>
+        <UsageCount Value="203"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="wmeventloop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmeventloop"/>
+        <CursorPos X="39" Y="4"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="196"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="wmeventhandler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmeventhandler"/>
+        <CursorPos X="80" Y="716"/>
+        <TopLine Value="678"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="196"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="wmtaskbar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmtaskbar"/>
+        <CursorPos X="70" Y="165"/>
+        <TopLine Value="120"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="166"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value=""/>
+        <UsageCount Value="3"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="wmlaunchbar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmlaunchbar"/>
+        <CursorPos X="86" Y="162"/>
+        <TopLine Value="138"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="97"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="wmtimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmtimer"/>
+        <CursorPos X="39" Y="4"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="91"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="wmmainmenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmmainmenu"/>
+        <CursorPos X="131" Y="111"/>
+        <TopLine Value="56"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="88"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="imlib2.pp"/>
+        <UnitName Value="Imlib2"/>
+        <CursorPos X="14" Y="118"/>
+        <TopLine Value="72"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="xpm.pp"/>
+        <UnitName Value="xpm"/>
+        <CursorPos X="79" Y="28"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="17"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="wmdesktop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wmdesktop"/>
+        <CursorPos X="30" Y="104"/>
+        <TopLine Value="79"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
